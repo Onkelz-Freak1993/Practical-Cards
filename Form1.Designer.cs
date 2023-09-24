@@ -252,44 +252,45 @@
             this.toolStripMenuItem2,
             this.removeToolStripMenuItem});
             this.CardsContextMenu.Name = "CardsContextMenu";
-            this.CardsContextMenu.Size = new System.Drawing.Size(125, 104);
+            this.CardsContextMenu.Size = new System.Drawing.Size(181, 126);
             // 
             // activateToolStripMenuItem
             // 
             this.activateToolStripMenuItem.Name = "activateToolStripMenuItem";
-            this.activateToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.activateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.activateToolStripMenuItem.Text = "Activate";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(121, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(177, 6);
             // 
             // editCardToolStripMenuItem
             // 
             this.editCardToolStripMenuItem.Image = global::Practical_Cards.Properties.Resources.document_properties;
             this.editCardToolStripMenuItem.Name = "editCardToolStripMenuItem";
-            this.editCardToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.editCardToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.editCardToolStripMenuItem.Text = "Edit";
+            this.editCardToolStripMenuItem.Click += new System.EventHandler(this.editCardToolStripMenuItem_Click);
             // 
             // duplicateToolStripMenuItem
             // 
             this.duplicateToolStripMenuItem.Image = global::Practical_Cards.Properties.Resources.edit_copy;
             this.duplicateToolStripMenuItem.Name = "duplicateToolStripMenuItem";
-            this.duplicateToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.duplicateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.duplicateToolStripMenuItem.Text = "Duplicate";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(121, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(177, 6);
             // 
             // removeToolStripMenuItem
             // 
             this.removeToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
             this.removeToolStripMenuItem.Image = global::Practical_Cards.Properties.Resources.edit_delete;
             this.removeToolStripMenuItem.Name = "removeToolStripMenuItem";
-            this.removeToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.removeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.removeToolStripMenuItem.Text = "Remove";
             // 
             // Card2
@@ -495,6 +496,7 @@
             this.NewCardTBtn.Name = "NewCardTBtn";
             this.NewCardTBtn.Size = new System.Drawing.Size(23, 22);
             this.NewCardTBtn.Text = "New Card";
+            this.NewCardTBtn.Click += new System.EventHandler(this.NewCardTBtn_Click);
             // 
             // DeleteCardTBtn
             // 

@@ -110,5 +110,15 @@ namespace Practical_Cards
                 tabControl1.TabPages.Remove(DebugTab);
             }
         }
+
+        private void NewCardTBtn_Click(object sender, EventArgs e)
+        {
+            new editCardForm().Show();
+        }
+
+        private void editCardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new editCardForm().Show();
+        }
     }
 }   

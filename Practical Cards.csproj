@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="ini-parser-netstandard" Version="2.5.2" />
+    <PackageReference Include="Sara-FCTB" Version="2.16.26.105" />
   </ItemGroup>
 
   <ItemGroup>
